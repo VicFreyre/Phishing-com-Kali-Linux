@@ -8,7 +8,7 @@ Este relatório documenta a execução de um experimento de segurança ofensiva 
 - **Sistema Operacional:** Kali Linux  
 - **Ferramenta Utilizada:** Social Engineering Toolkit (SET)  
 - **Método de Ataque:** Credential Harvester Attack + Site Cloner  
-- **Alvo Simulado:** Página de login do Facebook (exemplo educacional)  
+- **Alvo Simulado:** Página de login do Facebook 
 
 ## 3. Configuração do Phishing no Kali Linux
 
