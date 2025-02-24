@@ -1,18 +1,18 @@
 # Phishing-com-Kali-Linux
 Este repositório contém um relatório técnico sobre a simulação de um ataque de phishing usando Kali Linux e o Social Engineering Toolkit (SET). O objetivo é demonstrar métodos de captura de credenciais em um ambiente controlado, promovendo a conscientização sobre segurança cibernética e fornecendo recomendações para prevenção de phishing.
 
-## 1. Introdução
+# 1. Introdução
 Este relatório documenta a execução de um experimento de segurança ofensiva utilizando o Kali Linux para simular um ataque de phishing. O objetivo é compreender os métodos utilizados por agentes maliciosos e reforçar o conhecimento sobre segurança cibernética, sempre dentro de um ambiente controlado e ético.
 
-## 2. Ambiente de Testes
+# 2. Ambiente de Testes
 - **Sistema Operacional:** Kali Linux  
 - **Ferramenta Utilizada:** Social Engineering Toolkit (SET)  
 - **Método de Ataque:** Credential Harvester Attack + Site Cloner  
 - **Alvo Simulado:** Página de login do Facebook 
 
-## 3. Configuração do Phishing no Kali Linux
+# 3. Configuração do Phishing no Kali Linux
 
-### 3.1 Acessando o SEToolkit
+# 3.1 Acessando o SEToolkit
 Execute o comando abaixo para iniciar o SEToolkit:
 bash
 sudo setoolkit
